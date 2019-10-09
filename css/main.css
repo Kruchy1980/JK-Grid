@@ -71,10 +71,9 @@ figure {
     background-color: blue;
 }
 form {
-    margin: 5px 0;
-    padding: 5px 0;
+    /* margin: 5px 0;
+    padding: 5px 0; */
     text-align: center;
-}
 }
 input, label {
     margin: 5px 0 ;
