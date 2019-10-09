@@ -1,0 +1,37 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Noto Sans', sans-serif; */
+
+body {
+    background-color: rgb(129, 127, 127);
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+article, form {
+    
+    font-size: 0.9em;
+}
+time, span {
+    color: rgb(150, 110, 9);
+}
+
+.form__label {
+    font-weight: italic
+}
+
+.form__label--autor {
+    color: green
+}
+.nav {
+    display: grid;
+}
+.header
+{
+    display: grid;
+}
+.article {
+    display: grid;
+}
