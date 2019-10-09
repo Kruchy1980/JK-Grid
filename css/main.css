@@ -14,9 +14,9 @@ body {
     grid-template-areas: 
         "nav nav nav nav"
         "header header header header"
-        "article . aside aside "
-        "article . aside aside "
-        "article . aside aside ";
+        "article . aside . "
+        "article . aside . "
+        "article . aside .";
 }
 
 article, form {
@@ -37,25 +37,31 @@ time, span {
     width: 100%;
     background-color: black;
     padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 nav a {
     width: 20%;
     border: 1px solid whitesmoke;
     color: red;
+    margin: auto;
     text-decoration: none;
     align-content: space-around;
-
+}
+nav a:hover {
+    background-color: rgb(168, 164, 164);
+}
+figure {
+    text-align: left;
 }
 
-.header
-{
+.header {
     grid-area: header;
-    background: url("https://thumbs.dreamstime.com/z/comic-book-illustration-12899785.jpg") no-repeat black;
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
 }
-header
+
 .article {
     grid-area: article;
     background-color: yellow;
@@ -63,4 +69,13 @@ header
 .aside {
     grid-area: aside;
     background-color: blue;
+}
+form {
+    margin: 5px 0;
+    padding: 5px 0;
+    text-align: center;
+}
+}
+input, label {
+    margin: 5px 0 ;
 }
