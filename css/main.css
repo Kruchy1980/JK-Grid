@@ -14,9 +14,9 @@ body {
     grid-template-areas: 
         "nav nav nav nav"
         "header header header header"
-        "article . aside . "
-        "article . aside . "
-        "article . aside .";
+        "article . form . "
+        "article . form . "
+        "article . . .";
 }
 
 article, form {
@@ -27,9 +27,6 @@ time, span {
     color: rgb(150, 110, 9);
 }
 
-.form__label {
-    font-weight: italic
-}
 
 
 .nav {
@@ -48,7 +45,7 @@ nav a {
     color: red;
     margin: auto;
     text-decoration: none;
-    align-content: space-around;
+    text-transform: capitalize;
 }
 nav a:hover {
     background-color: rgb(168, 164, 164);
@@ -66,15 +63,13 @@ figure {
     grid-area: article;
     background-color: yellow;
 }
-.aside {
-    grid-area: aside;
-    background-color: blue;
-}
-form {
-    /* margin: 5px 0;
-    padding: 5px 0; */
+
+.form {
     text-align: center;
+    grid-area: form;
+    background-color:#fff;
+    padding: 10px auto;
+    margin: 10px 0;
+    width: 80%;
 }
-input, label {
-    margin: 5px 0 ;
-}
+
