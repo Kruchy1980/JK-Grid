@@ -41,9 +41,13 @@ time, span {
 }
 nav a {
     width: 20%;
+    height: 2em;
+    border-radius: 1em;
     border: 1px solid whitesmoke;
     color: red;
     margin: auto;
+    display: inline-block;
+    line-height: 2em;
     text-decoration: none;
     text-transform: capitalize;
 }
